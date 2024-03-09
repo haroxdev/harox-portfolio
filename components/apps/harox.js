@@ -261,7 +261,7 @@ function History() {
           Section under,{" "}
           <a
             className="border-b-2"
-            href="https://legrand.jp/"
+            href="https:///"
             target="_blank"
             rel="noreferrer"
           >
