@@ -56,7 +56,7 @@ function BootingScreen(props) {
       <div className="text-white mb-4">
         <a
           className="underline"
-          href="https://www.linkedin.com/in/aiden-mori-193b9325b/"
+          href="https://www.linkedin.com/in/adrián-martínez-villegas-863980298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
           rel="noreferrer noopener"
           target="_blank"
         >
@@ -64,7 +64,7 @@ function BootingScreen(props) {
         </a>
         <span className="font-bold mx-1">|</span>
         <a
-          href="https://github.com/aiden77mori"
+          href="https://github.com/haroxdev"
           rel="noreferrer noopener"
           target="_blank"
           className="underline"
