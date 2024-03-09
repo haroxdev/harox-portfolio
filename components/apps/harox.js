@@ -17,7 +17,7 @@ export class AboutAiden extends Component {
       about: <About />,
       education: <Education />,
       history: <History />,
-      projects: <Projects />,
+      // projects: <Projects />,
       skills: <Skills />,
       resume: <Resume />,
     };
@@ -251,12 +251,12 @@ function About() {
           Binance Smart Chain and so on.
         </li>
         <li className=" list-pc my-2 md:text-base">
-          Advanced knowledge of multiple programming languages, frameworks and
-          several database structures.
+        Medium knowledge of multiple programming languages, frameworks and
+        several database structures.
         </li>
         <li className=" list-pc my-2 md:text-base">
           Reliable team player offering exceptional analytical and time
-          management skills and the important ability to think critically and
+          management skills, the important ability to think critically and 
           solve complex problems.
         </li>
       </ul>
