@@ -212,7 +212,7 @@ function About() {
       <div className="w-20 md:w-32 mt-4 bg-white rounded-full">
         <img
           className="w-full rounded-full"
-          src="./images/logos/aidenmori.png"
+          src="./images/logos/harox.jpg"
           alt="Adrian Martinez Logo"
         />
       </div>

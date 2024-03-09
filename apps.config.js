@@ -14,7 +14,7 @@ const apps = [
   {
     id: "about-aiden",
     title: "About Harox",
-    icon: "./images/logos/aidenmori.png",
+    icon: "./images/logos/harox.jpg",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,

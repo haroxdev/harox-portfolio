@@ -36,7 +36,7 @@ export default function Meta() {
         itemProp="description"
         content="Adrian Martinez's Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
-      <meta itemProp="image" content="images/logos/aidenmori.png" />
+      <meta itemProp="image" content="images/logos/harox.jpg" />
       /* Twitter */
       <meta name="twitter:card" content="summary" />
       <meta
@@ -45,11 +45,11 @@ export default function Meta() {
       />
       <meta
         name="twitter:description"
-        content="Adrian Martinez's  Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
+        content="Adrian Martinez's Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
       <meta name="twitter:site" content="aiden77mori" />
       <meta name="twitter:creator" content="aiden77mori" />
-      <meta name="twitter:image:src" content="images/logos/aidenmori.png" />
+      <meta name="twitter:image:src" content="images/logos/harox.jpg" />
       /* Open Graph general (Facebook, Pinterest & Google+) */
       <meta
         name="og:title"
@@ -59,13 +59,13 @@ export default function Meta() {
         name="og:description"
         content="Adrian Martinez's  Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
-      <meta name="og:image" content="images/logos/aidenmori.png" />
+      <meta name="og:image" content="images/logos/harox.jpg" />
       <meta name="og:url" content="http://aiden77mori.github.io/" />
       <meta name="og:site_name" content="Adrian Martinez Personal Portfolio" />
       <meta name="og:locale" content="en_IN" />
       <meta name="og:type" content="website" />
-      <link rel="icon" href="images/logos/aidenmori.png" />
-      <link rel="apple-touch-icon" href="images/logos/aidenmori.png" />
+      <link rel="icon" href="images/logos/harox.jpg" />
+      <link rel="apple-touch-icon" href="images/logos/harox.jpg" />
       <link
         rel="preload"
         href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap"
