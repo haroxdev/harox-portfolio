@@ -424,28 +424,8 @@ function Skills() {
             />
             <img
               className="m-1"
-              src="https://img.shields.io/badge/-Solidity-ffffff?style=flat&logo=solidity&logoColor=000000&labelColor=%000000"
-              alt="harox solidity"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white"
-              alt="harox c++"
-            />
-            <img
-              className="m-1"
               src="http://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=ffffff"
               alt="harox python"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Dart-0175C2?style=flat&logo=dart&logoColor=white"
-              alt="harox dart"
-            />
-            <img
-              src="https://img.shields.io/badge/-Sass-%23CC6699?style=flat&logo=sass&logoColor=ffffff"
-              alt="harox SASS"
-              className="m-1"
             />
             <img
               src="https://img.shields.io/badge/-Git-%23F05032?style=flat&logo=git&logoColor=%23ffffff"
@@ -482,34 +462,9 @@ function Skills() {
               alt="harox svelte"
             />
             <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-Remix-00ccbb?style=flat&logo=remix&logoColor=000000"
-              alt="harox remix"
-            />
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-Web3JS-f16822?style=flat&logo=Web3.js&logoColor=ffffff"
-              alt="harox web3"
-            />
-            <img
-              className=" m-1"
-              src="https://img.shields.io/badge/-Hardhat-c5d11700?style=flat&logo=ethereum&logoColor=ffffff"
-              alt="harox hardhat"
-            />
-            <img
               className="m-1"
               src="https://img.shields.io/badge/React Native-61DAFB?style=flat&logo=react&logoColor=white"
               alt="harox react native"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Ionic-3880ff?style=flat&logo=ionic&logoColor=white"
-              alt="harox ionic framework"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white"
-              alt="harox flutter"
             />
             <img
               className="m-1"
@@ -530,11 +485,6 @@ function Skills() {
               src="https://img.shields.io/badge/jQuery-0769AD?style=flat&logo=jquery&logoColor=white"
               alt="harox jquery"
               className="m-1"
-            />
-            <img
-              className="m-1"
-              src="https://img.shields.io/badge/Redux-593D88?style=flat&logo=redux&logoColor=white"
-              alt="harox redux"
             />
             <img
               className="m-1"
