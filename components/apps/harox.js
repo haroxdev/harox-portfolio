@@ -572,9 +572,9 @@ function Education() {
             rel="noreferrer"
           >
             <img
-              src="./images/certificate/css_cert.webp"
+              src="./images/certificate/cert_mysql.jpg"
               className="rounded"
-              alt="CSS Certificate"
+              alt="MySQL Certificate"
             />
           </a>
         </div>
