@@ -238,24 +238,16 @@ function About() {
         <li className=" list-pc my-2 md:text-base">
           Familiar with <span className="font-bold">React, Node.js, JavaScript and MongoDB</span>, learning
           {" "}
-          <span className="font-bold">PHP and MySQL.</span>.
+          <span className="font-bold">PHP and MySQL</span>.
         </li>
         <li className=" list-pc my-2 md:text-base">
-          Developed <span className="font-bold">a comprehensive DeFi</span>,{" "}
-          <span className="font-bold">NFT marketplaces</span>,{" "}
-          <span className="font-bold">Tokens</span> and 20+{" "}
-          <span className="font-bold">Web3</span> projects including{" "}
-          <span className="font-bold">P2E games</span> on Ethereum, Polygon,
-          Binance Smart Chain and so on.
+        Enthusiastic team player with excellent creative and problem solving skills.{" "}
         </li>
         <li className=" list-pc my-2 md:text-base">
-        Medium knowledge of multiple programming languages, frameworks and
-        several database structures.
+        Detail-oriented and meticulous, committed to delivering high quality code.
         </li>
         <li className=" list-pc my-2 md:text-base">
-          Reliable team player offering exceptional analytical and time
-          management skills, the important ability to think critically and 
-          solve complex problems.
+        Proactive and self-starter, always looking for new challenges and opportunities to grow.
         </li>
       </ul>
     </>
