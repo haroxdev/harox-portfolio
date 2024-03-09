@@ -107,7 +107,7 @@ export class AboutAiden extends Component {
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Experience</span>
         </div>
-        <div
+        {/* <div
           id="projects"
           tabIndex="0"
           onFocus={this.changeScreen}
@@ -124,7 +124,7 @@ export class AboutAiden extends Component {
             src="./themes/Yaru/status/projects.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Projects</span>
-        </div>
+        </div> */}
         <div
           id="skills"
           tabIndex="0"
