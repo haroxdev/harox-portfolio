@@ -258,14 +258,14 @@ function History() {
     {
       name: (
         <p>
-          Junior Front End Developer,{" "}
+          Section under,{" "}
           <a
             className="border-b-2"
             href="https://legrand.jp/"
             target="_blank"
             rel="noreferrer"
           >
-            Le Grand Co, Ltd.
+            construction
           </a>
         </p>
       ),
@@ -273,23 +273,7 @@ function History() {
       link: "https://legrand.jp/",
       description: [
         <p>
-          Worked in an Agile, collaborative environment to receive design
-          requirements, peer program, and test applications
-        </p>,
-        <p>
-          Maintained and updated 20+ web pages, graphics, and online marketing
-          materials in collaboration with the UX manager and development team.
-        </p>,
-        <p>
-          Leading troubleshooting efforts, fixing more than 1,000 bugs and other
-          issues, and updated sites throughout the production lifecycle.
-        </p>,
-        <p>
-          Created the complex UI components using react/typescript and scss.
-        </p>,
-        <p>
-          Improved the process of storing app state info by implementing the
-          Redux store, and successfully integrated the front-end with Rest APIs.
+          Section under construction
         </p>,
       ],
     },
