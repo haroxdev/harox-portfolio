@@ -310,6 +310,9 @@ export class Terminal extends Component {
             case "clear":
                 this.reStartTerminal();
                 return;
+            case "help":
+                result = "Available Commands: [ cd, ls, pwd, echo, clear, exit, mkdir, code, spotify, chrome, about-vivek, todoist, trash, settings, sendmsg ]";
+                break;
             case "exit":
                 this.closeTerminal();
                 return;
