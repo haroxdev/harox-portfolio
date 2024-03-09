@@ -269,8 +269,8 @@ function History() {
           </a>
         </p>
       ),
-      date: "Apr 2015 - Nov 2016, Japan",
-      link: "https://legrand.jp/",
+      date: "Now",
+      link: "https://",
       description: [
         <p>
           Section under construction
