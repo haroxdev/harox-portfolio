@@ -385,8 +385,6 @@ function Skills() {
       </div>
       <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
         <li className=" list-finger text-sm md:text-base mt-4 leading-tight tracking-tight">
-        </li>
-        <li className=" list-finger text-sm md:text-base mt-4 leading-tight tracking-tight">
           <div>Here are my most frequently used</div>
         </li>
       </ul>
