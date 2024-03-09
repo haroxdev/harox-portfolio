@@ -213,12 +213,12 @@ function About() {
         <img
           className="w-full rounded-full"
           src="./images/logos/aidenmori.png"
-          alt="Adrián Martínez Logo"
+          alt="Adrian Martinez Logo"
         />
       </div>
       <div className=" mt-2 text-lg md:text-2xl text-center px-1">
         <div>
-          My name is <span className="font-bold">Adrián Martínez</span> ,
+          My name is <span className="font-bold">Adrian Martinez</span> ,
         </div>
         <div className="font-normal ml-1">
           I'm a{" "}
