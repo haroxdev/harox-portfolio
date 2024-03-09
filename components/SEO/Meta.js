@@ -60,7 +60,7 @@ export default function Meta() {
         content="Adrian Martinez's  Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
       <meta name="og:image" content="images/logos/harox.jpg" />
-      <meta name="og:url" content="http://aiden77mori.github.io/" />
+      <meta name="og:url" content="https://github.com/haroxdev" />
       <meta name="og:site_name" content="Adrian Martinez Personal Portfolio" />
       <meta name="og:locale" content="en_IN" />
       <meta name="og:type" content="website" />

@@ -385,17 +385,6 @@ function Skills() {
       </div>
       <ul className=" tracking-tight text-sm md:text-base w-10/12 emoji-list">
         <li className=" list-finger text-sm md:text-base mt-4 leading-tight tracking-tight">
-          I am working as a full stack developer.
-        </li>
-        <li className=" list-finger text-sm md:text-base mt-4 leading-tight tracking-tight">
-          <div>
-            {" "}
-            My areas of expertise are{" "}
-            <strong className="text-ubt-gedit-orange">
-              React.js, Web3.js and Smart Contract
-            </strong>{" "}
-            development
-          </div>
         </li>
         <li className=" list-finger text-sm md:text-base mt-4 leading-tight tracking-tight">
           <div>Here are my most frequently used</div>
