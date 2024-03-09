@@ -223,7 +223,7 @@ function About() {
         <div className="font-normal ml-1">
           I'm a{" "}
           <span className="text-pink-600 font-bold">
-            Full Stack and Blockchain Developer!
+            Junior Full Stack Developer!
           </span>
         </div>
       </div>
