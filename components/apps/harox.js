@@ -568,9 +568,19 @@ function Education() {
           <a
             className="w-full cursor-pointer"
             target="_blank"
-            href="https://www.hackerrank.com/certificates/f367d0b2f01b"
+            href=""
             rel="noreferrer"
           >
+            <img
+              src="./images/certificate/cert_node.js.jpg"
+              className="rounded"
+              alt="Node.JS Certificate"
+            />
+            <img
+              src="./images/certificate/cert_react.jpg"
+              className="rounded"
+              alt="React Certificate"
+            />
             <img
               src="./images/certificate/cert_mysql.jpg"
               className="rounded"
