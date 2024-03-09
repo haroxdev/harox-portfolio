@@ -362,6 +362,11 @@ function Education() {
             rel="noreferrer"
           >
             <img
+              src="./images/certificate/microsoft.png"
+              className="rounded"
+              alt="Microsoft Certificate"
+            />
+            <img
               src="./images/certificate/cert_node.js.jpg"
               className="rounded"
               alt="Node.JS Certificate"
