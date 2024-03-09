@@ -766,983 +766,983 @@ function Skills() {
     </>
   );
 }
-function Projects() {
-  const project_list = [
-    {
-      name: "Roppongi Ai",
-      date: "Feb 2024 - Feb 2024",
-      link: "https://roppongi-ai.netlify.app/",
-      imgUrl: "./images/projects/roppongi-ai.webp",
-      description: [
-        <p>AI website development</p>,
-        <p>Wordpress theme</p>,
-        <p>Elementor Pro</p>,
-      ],
-      domains: ["Wordpress", "AI", "Elementor", "HTML", "CSS", "JavaScript"],
-    },
-    {
-      name: "Plinko Lotto Dapp",
-      date: "Jan 2024 - Jan 2024",
-      link: "https://plinko-lotto.netlify.app/",
-      imgUrl: "./images/projects/plinko-lotto.webp",
-      description: [
-        <p>Lotto game development</p>,
-        <p>Blockchain game development</p>,
-        <p>Lotto token integration</p>,
-      ],
-      domains: [
-        "Dapp",
-        "Lotto",
-        "Blockchain",
-        "Solidity",
-        "React.js",
-        "Web3.js",
-      ],
-    },
-    {
-      name: "Roppongi Lotto Dapp",
-      date: "Jan 2024 - Jan 2024",
-      link: "https://lotto-droplocker.netlify.app/",
-      imgUrl: "./images/projects/roppongi-lotto.webp",
-      description: [
-        <p>Lotto game development</p>,
-        <p>Blockchain game development</p>,
-        <p>Lotto token integration</p>,
-      ],
-      domains: [
-        "Dapp",
-        "Lotto",
-        "Blockchain",
-        "Solidity",
-        "React.js",
-        "Web3.js",
-      ],
-    },
-    {
-      name: "Lucky Wheel Lotto Dapp",
-      date: "Feb 2024 - Feb 2024",
-      link: "https://lucky-wheel-lotto.netlify.app/",
-      imgUrl: "./images/projects/lucky-wheel.webp",
-      description: [
-        <p>Lotto game development</p>,
-        <p>Blockchain game development</p>,
-        <p>Lotto token integration</p>,
-      ],
-      domains: [
-        "Dapp",
-        "Lotto",
-        "Blockchain",
-        "Solidity",
-        "React.js",
-        "Web3.js",
-      ],
-    },
-    {
-      name: "Decent Reviews",
-      date: "Mar 2023 - Nov 2023",
-      link: "https://www.linkedin.com/company/decentreviews/about/",
-      imgUrl: "./images/projects/decent-reviews.webp",
-      description: [
-        <p>Worked on backend and smart contract develoment</p>,
-        <p>
-          Created the user review API, automatic review aggregation engine,
-          automatic review logo generation engine
-        </p>,
-        <p>
-          Integrated with smart contract using web3.js and synced with backend
-        </p>,
-        <p>
-          Implemented the backend including database using cypress and jext
-          testing library and finalize the API document using swagger API
-          framework
-        </p>,
-      ],
-      domains: [
-        "Node.js",
-        "Express.js",
-        "Blockchain",
-        "Solidity",
-        "React.js",
-        "Web3.js",
-        "MongoDB",
-        "CI/CD",
-        "Github",
-      ],
-    },
-    {
-      name: "AI Play - Video Generator",
-      date: "Dec 2023 - Dec 2023",
-      link: "https://ai-play.netlify.app/",
-      imgUrl: "./images/projects/ai-video-generator.webp",
-      description: [
-        <p>Used D-ID API for generation video from image</p>,
-        <p>Genrate AI video from image</p>,
-        <p>Upload image</p>,
-        <p>Choose voice, voice style and language</p>,
-      ],
-      domains: [
-        "react.js",
-        "css",
-        "AI",
-        "D-ID",
-        "API integration",
-        "animation",
-        "video",
-      ],
-    },
-    {
-      name: "Speaking Girl AI",
-      date: "Nov 2023 - Nov 2023",
-      link: "https://speakingai.difines.io",
-      imgUrl: "./images/projects/ai-speaking-girl.webp",
-      description: [
-        <p>Use chatGPT</p>,
-        <p>Use Microsoft Azure for TTS function</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "AI",
-        "chatGPT",
-        "microsoft",
-        "tts",
-      ],
-    },
-    {
-      name: "SHIBUYA Ecosystem",
-      date: "Dec 2021 - Apr 2022",
-      link: "https://shibuya.difines.io",
-      imgUrl: "./images/projects/shibuya.webp",
-      description: [
-        <p>
-          Has <span className="font-medium">special mechanism</span> called{" "}
-          <span className="font-medium">Golden Tree</span> that can make the
-          token price <span className="font-medium">never go down</span>, and{" "}
-          <span className="font-medium">rise day by day</span>
-        </p>,
-        <p>
-          Designed that <span className="font-medium">SMTC token</span> that is
-          the main token of Golden Tree that has the special mechanism will be{" "}
-          <span className="font-medium">over 100K BUSD</span> finally
-        </p>,
-        <p>Has 7 ladder system</p>,
-        <p>has many rewards system</p>,
-        <p>has referral function</p>,
-        <p>has team manage feature as being a boss of the team</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "web3.js",
-        "solidity",
-        "hardhat",
-        "defi",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Staking Platform",
-      date: "Nov 2023 - Dec 2023",
-      link: "https://stakes.difines.io",
-      imgUrl: "./images/projects/stake-referral-reward.webp",
-      description: [
-        <p>Has 5 level referral system working on CEX</p>,
-        <p>Staking with multiple tokens working on DEX</p>,
-        <p>Re-staking, withdrawing and add-staking are possible</p>,
-        <p>Strong reward system based on star earning for each actions</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "web3.js",
-        "solidity",
-        "hardhat",
-        "dex",
-        "cex",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "FC Marketplace",
-      date: "August 2023",
-      link: "https://fcmarket.difines.io",
-      imgUrl: "./images/projects/fcmarket.webp",
-      description: [
-        <p>
-          Users can swap the crypto to real cash using this platform. We made
-          the secure pool that user can deposit token to make a contract.
-        </p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "ethers.js",
-        "wallet connect",
-        "metamask",
-        "firebase",
-        "solidity",
-        "hardhat",
-        "token",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "PEPE Sushi",
-      date: "May 2023",
-      link: "https://pepesushi.vip",
-      imgUrl: "./images/projects/pepe-sushi.webp",
-      description: [
-        <p>
-          PEPE SUSHI is a member of the PEPE family. The PEPE family loved sushi
-          and wanted to become a sushi chef, so they came to learn the technique
-          Japan. It also offers a service called The Messages, which will be a
-          platform where the messages you post will be permanently recorded on
-          the blockchain. Every time a message is posted, PEPES is inspired by
-          mysterious tokens that burn indefinitely!
-        </p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "ethers.js",
-        "wallet connect",
-        "metamask",
-        "coinbase",
-        "solidity",
-        "hardhat",
-        "token",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "DEX Orderbook",
-      date: "Oct 2023",
-      link: "https://orderbook.pepesushi.vip",
-      imgUrl: "./images/projects/dex-orderbook.webp",
-      description: [
-        <p>Dex orderbook platform</p>,
-        <p>
-          Support PEPE Bep20, PEPE Sushi, PEPE MSG and more than 11 meme tokens
-        </p>,
-        <p>Added TradinvView</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "web3.js",
-        "wallet connect",
-        "metamask",
-        "coinbase",
-        "solidity",
-        "hardhat",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "PEPE Bep20 | Burn & Drop",
-      date: "June 2023",
-      link: "https://pepe.markets/",
-      imgUrl: "./images/projects/burn_drop.webp",
-      description: [
-        <p>
-          Burn & Drop is the service that burns and airdrop each token to make a
-          token price rising up.
-        </p>,
-        <p>
-          Support PEPE Bep20, PEPE Sushi, PEPE MSG and more than 11 meme tokens
-        </p>,
-        <p>PEPE Syndicate</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "web3.js",
-        "wallet connect",
-        "metamask",
-        "coinbase",
-        "solidity",
-        "hardhat",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Genogram",
-      date: "Sep 2021",
-      link: "https://genogram-gojs.netlify.app/",
-      imgUrl: "./images/projects/genogram.webp",
-      description: [
-        <p>Genorgram using react.js and gojs</p>,
-        <p>Generate the data from the database and editable by drag.</p>,
-      ],
-      domains: ["react.js", "gojs", "gosj-react", "html", "css"],
-    },
-    {
-      name: "Food Website",
-      date: "Aug 2023",
-      link: "#",
-      imgUrl: "./images/projects/food.webp",
-      description: [<p>Website Theme Development</p>],
-      domains: ["react", "html5", "scss", "javascript", "css3"],
-    },
-    {
-      name: "Dentist Website",
-      date: "Aug 2023",
-      link: "#",
-      imgUrl: "./images/projects/dentist.webp",
-      description: [<p>Website Theme Development</p>],
-      domains: ["react", "html5", "scss", "javascript", "css3"],
-    },
-    {
-      name: "Fashion Website",
-      date: "July 2023",
-      link: "https://aura-fashion-theme.netlify.app/",
-      imgUrl: "./images/projects/fashion.webp",
-      description: [<p>Website Theme Development</p>],
-      domains: ["react", "html5", "scss", "javascript", "css3"],
-    },
-    {
-      name: "Crypto Website",
-      date: "July 2023",
-      link: "https://crypto-aura-theme.netlify.app/",
-      imgUrl: "./images/projects/crypto.webp",
-      description: [<p>Website Theme Development</p>],
-      domains: ["react", "html5", "scss", "javascript", "css3"],
-    },
-    {
-      name: "Xocial Media App",
-      date: "Feb 2017",
-      link: "#",
-      imgUrl: "./images/projects/xocial.webp",
-      description: [<p>Mobile App Development</p>],
-      domains: ["mobile", "ios", "ipad", "android"],
-    },
-    {
-      name: "PEPE Brother",
-      date: "May 2023",
-      link: "https://brothers.pepesushi.vip",
-      imgUrl: "./images/projects/pepe.webp",
-      description: [
-        <p>Two token support, PEPEP and PEPEG</p>,
-        <p>Burn one token and get same amount of another token</p>,
-        <p>Pepe police and pepe gang story</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "ethers.js",
-        "wallet connect",
-        "metamask",
-        "coinbase",
-        "solidity",
-        "hardhat",
-        "token",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "PEPE MSG",
-      date: "May 2023",
-      link: "https://intro.themessages.xyz/",
-      imgUrl: "./images/projects/pepe-msg.webp",
-      description: [
-        <p>The Messages. Combining Meme culture with utility.</p>,
-        <p>
-          Experience the Fusion of Meme Coin and Social Media: Power Up Your
-          Blockahin Experience!
-        </p>,
-        <p>
-          $TBNB, $ARMY, and $MSG. $MSG is on Binance Smart Chain, while the
-          others are on the testnet.
-        </p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "ethers.js",
-        "wallet connect",
-        "metamask",
-        "coinbase",
-        "solidity",
-        "hardhat",
-        "token",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Token Faucet Platform",
-      date: "Mar 2023",
-      link: "https://faucet.themessages.xyz",
-      imgUrl: "./images/projects/faucet.webp",
-      description: [
-        <p>ERC20 Token faucet platform</p>,
-        <p>Binance smart chain tesetnet support</p>,
-        <p>Time limitation implemented</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "web3.js",
-        "solidity",
-        "hardhat",
-        "token",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Home Of 12V",
-      date: "May 2020",
-      imgUrl: "./images/projects/12v.webp",
-      link: "#",
-      description: [
-        <p>Front end working</p>,
-        <p>Mobile responsive using tailwindCSS and Next.js</p>,
-      ],
-      domains: ["next.js", "typescript", "tailwindCSS", "react.js", "netlify"],
-    },
-    {
-      name: "Voice Emailer App",
-      date: "Oct 2016",
-      link: "#",
-      imgUrl: "./images/projects/voice.webp",
-      description: [<p>Mobile App Development</p>],
-      domains: ["mobile", "ios", "ipad", "android"],
-    },
-    {
-      name: "Catch Me App",
-      date: "Dec 2016",
-      link: "#",
-      imgUrl: "./images/projects/catch.webp",
-      description: [<p>Mobile App Development</p>],
-      domains: ["mobile", "ios", "ipad", "android"],
-    },
-    {
-      name: "NFT Marketplace",
-      date: "July 2022 - Aug 2022",
-      imgUrl: "./images/projects/nftmarket.webp",
-      link: "https://nftmarket.difines.io",
-      description: [
-        <p>Minting, Selling, Buying and Listing NFTs</p>,
-        <p>
-          Has the <span className="font-medium">royalty</span> for the{" "}
-          <span className="font-medium">NFT creators</span>
-        </p>,
-        <p>
-          <span className="font-medium">Swap place</span> where user can swap
-          <span className="font-medium">two NFT properties</span>
-        </p>,
-        <p>
-          Planning to develop <span className="font-medium">combine place</span>{" "}
-          where makes NFT more <span className="font-medium">stronger</span>
-        </p>,
-        <p>
-          NFTs will be used as the{" "}
-          <span className="font-medium">game assets</span>
-        </p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "firebase",
-        "web3.js",
-        "solidity",
-        "hardhat",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "KOILLECTIBLE",
-      date: "Oct 2022 - Nov 2022",
-      imgUrl: "./images/projects/koi.webp",
-      link: "https://koi.difines.io",
-      description: [
-        <p>
-          The platform that brings fundraising to the global stage by combining
-          traditional web2 and the emerging web3 industries.
-        </p>,
-        <p>Koi fishes will be growing day by day</p>,
-        <p>Change water function</p>,
-        <p>
-          Fish swimming speed will be decreased based on the weight growing day
-          by day
-        </p>,
-        <p>
-          NFTs will be used as the{" "}
-          <span className="font-medium">game assets</span>
-        </p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "firebase",
-        "web3.js",
-        "solidity",
-        "hardhat",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "NFT Marketplace (Bloodshed)",
-      date: "Oct 2019 - Dec 2019",
-      imgUrl: "./images/projects/nftfront.webp",
-      link: "#",
-      description: [<p>Minting, Selling, Buying, Bidding, Listing NFTs</p>],
-      domains: [
-        "react.js",
-        "scss",
-        "node.js",
-        "express.js",
-        "mongodb",
-        "ethers.js",
-        "solidity",
-        "truffle",
-        "ethereum",
-      ],
-    },
-    {
-      name: "White Creator Token Minting Platform",
-      date: "Jun 2022",
-      link: "https://whitecreator.difines.io",
-      imgUrl: "./images/projects/whitecreator.webp",
-      description: [
-        <p>
-          Support <span className="font-medium">binance</span> and{" "}
-          <span className="font-medium">ethereum</span> chains for now.
-        </p>,
-        <p>
-          Create token easily within{" "}
-          <span className="font-medium">10 seconds by one click</span>
-        </p>,
-        <p>
-          Plan to add <span className="font-medium">more evm chains</span> such
-          like polygon, avax and etc.
-        </p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "web3.js",
-        "solidity",
-        "hardhat",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "NFT Minting Platform",
-      date: "Jun 2022",
-      link: "https://nft.difines.io",
-      imgUrl: "./images/projects/nft.webp",
-      description: [
-        <p>
-          Support <span className="font-medium">binance</span> and{" "}
-          <span className="font-medium">ethereum</span> chains for now.
-        </p>,
-        <p>
-          Create NFT easily within{" "}
-          <span className="font-medium">10 seconds by one click</span>
-        </p>,
-        <p>
-          Plan to add <span className="font-medium">more evm chains</span> such
-          like polygon, avax and etc.
-        </p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "scss",
-        "web3.js",
-        "solidity",
-        "hardhat",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Electon JS Project",
-      date: "Feb 2020",
-      imgUrl: "./images/projects/movie-electron.webp",
-      link: "#",
-      description: [<p>ElectronJS</p>, <p>Tailwind</p>, <p>React.js</p>],
-      domains: ["electronJS", "react.js", "tailwind"],
-    },
-    {
-      name: "Guessing App",
-      date: "Sep 2017",
-      link: "#",
-      imgUrl: "./images/projects/hairshop.webp",
-      description: [<p>Mobile App Development</p>],
-      domains: ["mobile", "ios", "ipad", "android"],
-    },
-    {
-      name: "Web3.0 Messaging Platform - Chat Fi",
-      date: "Feb 2023",
-      imgUrl: "./images/projects/chatfi.webp",
-      link: "https://chatfi.difines.io",
-      description: [
-        <p>Chat each other using wallet address</p>,
-        <p>Create the group and invite people</p>,
-        <p>Transfer token easily</p>,
-        <p>Create the token airdrop and voting event</p>,
-        <p>Plan to add many feature</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "chatscope",
-        "web3.js",
-        "firebase",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "The Messages (record)",
-      date: "Mar 2023",
-      imgUrl: "./images/projects/message.webp",
-      link: "https://record.themessages.xyz",
-      description: [
-        <p>
-          Create the gold, silver and bronze types of congratulation messages to
-          the blockchain
-        </p>,
-        <p>Use the WBC token</p>,
-        <p>Share more SNS information by choosing the gold message</p>,
-        <p>Plan to add more feature</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "web3.js",
-        "solidity",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "The Messages (booker)",
-      date: "Apr 2023",
-      imgUrl: "./images/projects/booker.webp",
-      link: "https://bettor.pepesushi.vip",
-      description: [
-        <p>Post to earn web3 project</p>,
-        <p>Integrated wallet connect, coinbase, metamask</p>,
-        <p>Use the nft.storage SDK to save metadata</p>,
-        <p>Post, Edit, Delete, Buy article</p>,
-      ],
-      domains: [
-        "react.js",
-        "typescript",
-        "web3.js",
-        "solidity",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Mining P2E Game",
-      date: "Apr 2023",
-      imgUrl: "./images/projects/mining.webp",
-      link: "https://intro.mining.difines.io",
-      description: [
-        <p>Play to Earn web3 mining game</p>,
-        <p>Integrate NFT assets with the game</p>,
-        <p>Buy the NFTs to earn much more token</p>,
-      ],
-      domains: [
-        "vue.js",
-        "web3.js",
-        "play to earn",
-        "solidity",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Partner",
-      date: "Mar 2023",
-      imgUrl: "./images/projects/partner.webp",
-      link: "https://partner.difines.io",
-      description: [
-        <p>Create the backend using openAI api with node.js and express.js</p>,
-        <p>Made the backend as serverless to run on the netlify</p>,
-        <p>Integrated react.js frontend with the backend</p>,
-      ],
-      domains: ["chatGPT", "react.js", "node.js", "express.js"],
-    },
-    {
-      name: "Clinicial Chart (Alarta)",
-      date: "2020 - 2021",
-      imgUrl: "./images/projects/clinical.webp",
-      link: "https://incarta.com.au/",
-      description: [
-        <p>
-          With over 25 years experience in the Health and Life Sciences sector,
-          Incarta has a demonstrated history of innovation in hardware and
-          software development. Our leading clinical records platform “Alarta”
-          is amongst the most advanced cloud based critical care medical record
-          systems available anywhere. It is also one of the most cost effective.
-          Alarta can be deployed within a few hours auto-configuring itself via
-          HL7.
-        </p>,
-      ],
-      domains: ["chatGPT", "react.js", "node.js", "express.js"],
-    },
-    {
-      name: "Facial Recognize",
-      date: "Feb 2020",
-      imgUrl: "./images/projects/facial-recognize.webp",
-      link: "https://github.com/aiden77mori/facial-recognization",
-      description: [
-        <p>Face dectection project using face-api.js</p>,
-        <p>API integration with react</p>,
-        <p>Multi faces recognize possible</p>,
-        <p>Recognize face using the camera</p>,
-      ],
-      domains: ["react.js", "face-api.js", "restful-api", "integration"],
-    },
-    {
-      name: "Art Worker",
-      date: "Dec 2019",
-      imgUrl: "./images/projects/art.webp",
-      link: "https://nft.difines.io/art",
-      description: [
-        <p>Photo Edition tools using fabric.js and react.js</p>,
-        <p>Filter, Adjust, Overlay, Drawing functions</p>,
-      ],
-      domains: ["fabric.js", "react.js", "typescript", "nft"],
-    },
-    {
-      name: "DIOR Virtual Shop",
-      date: "Oct 2020",
-      imgUrl: "./images/projects/dior.webp",
-      link: "https://dior-vrstore.netlify.app",
-      description: [
-        <p>Admin can upload the images and 3D assets</p>,
-        <p>Add or edit map with hubspot</p>,
-        <p>Purchase the product in VR environment</p>,
-      ],
-      domains: ["html", "javascript", "php", "panolens", "css", "three.js"],
-    },
-    {
-      name: "Album App",
-      date: "Feb 2021",
-      imgUrl: "./images/projects/app.webp",
-      link: "#",
-      description: [
-        <p>Sign up by OTP</p>,
-        <p>User can post images</p>,
-        <p>Make friend</p>,
-        <p>Social platform integration</p>,
-        <p>Upload and edit image using uploadcare widget</p>,
-        <p>Display address book of the mobile</p>,
-      ],
-      domains: [
-        "ionic",
-        "angular",
-        "node.js",
-        "express.js",
-        "postgreSql",
-        "scss",
-      ],
-    },
-    {
-      name: "Kingdom Battle",
-      date: "July 2022",
-      imgUrl: "./images/projects/kingdom.webp",
-      link: "https://kingdom.difines.io",
-      description: [
-        <p>
-          <span className="font-medium">Play to Earn</span> web3 battle type of
-          game
-        </p>,
-        <p>
-          Support <span className="font-medium">multiplayer</span> mode in which
-          up to <span className="font-medium">8 players</span> playing together
-        </p>,
-        <p>Defeat goblins and enemy boss to get the more token</p>,
-      ],
-      domains: [
-        "unity3D",
-        "solidity",
-        "web3.js",
-        "webgl",
-        "play to earn",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "World Speed",
-      date: "Sep 2022",
-      imgUrl: "./images/projects/worldspeed.webp",
-      link: "https://hamadeco.jp/cargame/",
-      description: [
-        <p>
-          <span className="font-medium">Play to Earn</span> web3 car racing game
-        </p>,
-        <p>
-          Play with 4 computer players on the{" "}
-          <span className="font-medium">easy, middle and hard</span> game mode
-        </p>,
-        <p>Be top winner to get the more token</p>,
-        <p>
-          Plan to add <span className="font-medium">multiplayer</span> mode
-        </p>,
-      ],
-      domains: [
-        "unity3D",
-        "solidity",
-        "web3.js",
-        "webgl",
-        "play to earn",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Crypto Snaker",
-      date: "Aug 2022",
-      imgUrl: "./images/projects/cryptosnake.webp",
-      link: "https://snake.difines.io",
-      description: [
-        <p>
-          <span className="font-medium">Play to Earn</span> web3 snake game
-        </p>,
-        <p>
-          Play with many <span className="font-medium">snake bots</span>
-        </p>,
-        <p>
-          Survive <span className="font-medium">as long as possible</span> to
-          get the more token
-        </p>,
-        <p>
-          Plan to add <span className="font-medium">multiplayer</span> mode
-        </p>,
-      ],
-      domains: [
-        "unity3D",
-        "solidity",
-        "web3.js",
-        "webgl",
-        "play to earn",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Puzzle",
-      date: "Oct 2022",
-      imgUrl: "./images/projects/puzzle.webp",
-      link: "https://puzzle.difines.io",
-      description: [
-        <p>
-          <span className="font-medium">Play to Earn</span> web3 puzzle game
-          (2048)
-        </p>,
-        <p>
-          Play on the <span className="font-medium">easy, middle and hard</span>{" "}
-          mode with the limited time
-        </p>,
-        <p>
-          Solve the puzzle{" "}
-          <span className="font-medium">as soon as possible</span> before time
-          is up to get the more token
-        </p>,
-      ],
-      domains: [
-        "unity3D",
-        "solidity",
-        "web3.js",
-        "webgl",
-        "play to earn",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "BlockDown",
-      date: "Nov 2022",
-      imgUrl: "./images/projects/blockdown.webp",
-      link: "https://blockdown.difines.io",
-      description: [
-        <p>
-          <span className="font-medium">Play to Earn</span> web3 block down game
-          (tetris)
-        </p>,
-        <p>
-          Play on the <span className="font-medium">easy, middle and hard</span>{" "}
-          mode
-        </p>,
-        <p>
-          Match the block to the{" "}
-          <span className="font-medium">right place</span> and break{" "}
-          <span className="font-medium">as much as possible</span> get the more
-          token
-        </p>,
-      ],
-      domains: [
-        "unity3D",
-        "solidity",
-        "web3.js",
-        "webgl",
-        "play to earn",
-        "binance smart chain",
-      ],
-    },
-    {
-      name: "Crypto Works Metaverse",
-      date: "Jan 2023",
-      imgUrl: "./images/projects/metaverse.webp",
-      link: "https://cryptoworks.difines.io",
-      description: [
-        <p>Meet the friends and chat each other</p>,
-        <p>Buy and sell your NFT assets</p>,
-        <p>Plan to add many features</p>,
-      ],
-      domains: [
-        "unity3D",
-        "solidity",
-        "web3.js",
-        "webgl",
-        "metaverse",
-        "play to earn",
-        "binance smart chain",
-      ],
-    },
-  ];
+// function Projects() {
+//   const project_list = [
+//     {
+//       name: "Roppongi Ai",
+//       date: "Feb 2024 - Feb 2024",
+//       link: "https://roppongi-ai.netlify.app/",
+//       imgUrl: "./images/projects/roppongi-ai.webp",
+//       description: [
+//         <p>AI website development</p>,
+//         <p>Wordpress theme</p>,
+//         <p>Elementor Pro</p>,
+//       ],
+//       domains: ["Wordpress", "AI", "Elementor", "HTML", "CSS", "JavaScript"],
+//     },
+//     {
+//       name: "Plinko Lotto Dapp",
+//       date: "Jan 2024 - Jan 2024",
+//       link: "https://plinko-lotto.netlify.app/",
+//       imgUrl: "./images/projects/plinko-lotto.webp",
+//       description: [
+//         <p>Lotto game development</p>,
+//         <p>Blockchain game development</p>,
+//         <p>Lotto token integration</p>,
+//       ],
+//       domains: [
+//         "Dapp",
+//         "Lotto",
+//         "Blockchain",
+//         "Solidity",
+//         "React.js",
+//         "Web3.js",
+//       ],
+//     },
+//     {
+//       name: "Roppongi Lotto Dapp",
+//       date: "Jan 2024 - Jan 2024",
+//       link: "https://lotto-droplocker.netlify.app/",
+//       imgUrl: "./images/projects/roppongi-lotto.webp",
+//       description: [
+//         <p>Lotto game development</p>,
+//         <p>Blockchain game development</p>,
+//         <p>Lotto token integration</p>,
+//       ],
+//       domains: [
+//         "Dapp",
+//         "Lotto",
+//         "Blockchain",
+//         "Solidity",
+//         "React.js",
+//         "Web3.js",
+//       ],
+//     },
+//     {
+//       name: "Lucky Wheel Lotto Dapp",
+//       date: "Feb 2024 - Feb 2024",
+//       link: "https://lucky-wheel-lotto.netlify.app/",
+//       imgUrl: "./images/projects/lucky-wheel.webp",
+//       description: [
+//         <p>Lotto game development</p>,
+//         <p>Blockchain game development</p>,
+//         <p>Lotto token integration</p>,
+//       ],
+//       domains: [
+//         "Dapp",
+//         "Lotto",
+//         "Blockchain",
+//         "Solidity",
+//         "React.js",
+//         "Web3.js",
+//       ],
+//     },
+//     {
+//       name: "Decent Reviews",
+//       date: "Mar 2023 - Nov 2023",
+//       link: "https://www.linkedin.com/company/decentreviews/about/",
+//       imgUrl: "./images/projects/decent-reviews.webp",
+//       description: [
+//         <p>Worked on backend and smart contract develoment</p>,
+//         <p>
+//           Created the user review API, automatic review aggregation engine,
+//           automatic review logo generation engine
+//         </p>,
+//         <p>
+//           Integrated with smart contract using web3.js and synced with backend
+//         </p>,
+//         <p>
+//           Implemented the backend including database using cypress and jext
+//           testing library and finalize the API document using swagger API
+//           framework
+//         </p>,
+//       ],
+//       domains: [
+//         "Node.js",
+//         "Express.js",
+//         "Blockchain",
+//         "Solidity",
+//         "React.js",
+//         "Web3.js",
+//         "MongoDB",
+//         "CI/CD",
+//         "Github",
+//       ],
+//     },
+//     {
+//       name: "AI Play - Video Generator",
+//       date: "Dec 2023 - Dec 2023",
+//       link: "https://ai-play.netlify.app/",
+//       imgUrl: "./images/projects/ai-video-generator.webp",
+//       description: [
+//         <p>Used D-ID API for generation video from image</p>,
+//         <p>Genrate AI video from image</p>,
+//         <p>Upload image</p>,
+//         <p>Choose voice, voice style and language</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "css",
+//         "AI",
+//         "D-ID",
+//         "API integration",
+//         "animation",
+//         "video",
+//       ],
+//     },
+//     {
+//       name: "Speaking Girl AI",
+//       date: "Nov 2023 - Nov 2023",
+//       link: "https://speakingai.difines.io",
+//       imgUrl: "./images/projects/ai-speaking-girl.webp",
+//       description: [
+//         <p>Use chatGPT</p>,
+//         <p>Use Microsoft Azure for TTS function</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "AI",
+//         "chatGPT",
+//         "microsoft",
+//         "tts",
+//       ],
+//     },
+//     {
+//       name: "SHIBUYA Ecosystem",
+//       date: "Dec 2021 - Apr 2022",
+//       link: "https://shibuya.difines.io",
+//       imgUrl: "./images/projects/shibuya.webp",
+//       description: [
+//         <p>
+//           Has <span className="font-medium">special mechanism</span> called{" "}
+//           <span className="font-medium">Golden Tree</span> that can make the
+//           token price <span className="font-medium">never go down</span>, and{" "}
+//           <span className="font-medium">rise day by day</span>
+//         </p>,
+//         <p>
+//           Designed that <span className="font-medium">SMTC token</span> that is
+//           the main token of Golden Tree that has the special mechanism will be{" "}
+//           <span className="font-medium">over 100K BUSD</span> finally
+//         </p>,
+//         <p>Has 7 ladder system</p>,
+//         <p>has many rewards system</p>,
+//         <p>has referral function</p>,
+//         <p>has team manage feature as being a boss of the team</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "web3.js",
+//         "solidity",
+//         "hardhat",
+//         "defi",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Staking Platform",
+//       date: "Nov 2023 - Dec 2023",
+//       link: "https://stakes.difines.io",
+//       imgUrl: "./images/projects/stake-referral-reward.webp",
+//       description: [
+//         <p>Has 5 level referral system working on CEX</p>,
+//         <p>Staking with multiple tokens working on DEX</p>,
+//         <p>Re-staking, withdrawing and add-staking are possible</p>,
+//         <p>Strong reward system based on star earning for each actions</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "web3.js",
+//         "solidity",
+//         "hardhat",
+//         "dex",
+//         "cex",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "FC Marketplace",
+//       date: "August 2023",
+//       link: "https://fcmarket.difines.io",
+//       imgUrl: "./images/projects/fcmarket.webp",
+//       description: [
+//         <p>
+//           Users can swap the crypto to real cash using this platform. We made
+//           the secure pool that user can deposit token to make a contract.
+//         </p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "ethers.js",
+//         "wallet connect",
+//         "metamask",
+//         "firebase",
+//         "solidity",
+//         "hardhat",
+//         "token",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "PEPE Sushi",
+//       date: "May 2023",
+//       link: "https://pepesushi.vip",
+//       imgUrl: "./images/projects/pepe-sushi.webp",
+//       description: [
+//         <p>
+//           PEPE SUSHI is a member of the PEPE family. The PEPE family loved sushi
+//           and wanted to become a sushi chef, so they came to learn the technique
+//           Japan. It also offers a service called The Messages, which will be a
+//           platform where the messages you post will be permanently recorded on
+//           the blockchain. Every time a message is posted, PEPES is inspired by
+//           mysterious tokens that burn indefinitely!
+//         </p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "ethers.js",
+//         "wallet connect",
+//         "metamask",
+//         "coinbase",
+//         "solidity",
+//         "hardhat",
+//         "token",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "DEX Orderbook",
+//       date: "Oct 2023",
+//       link: "https://orderbook.pepesushi.vip",
+//       imgUrl: "./images/projects/dex-orderbook.webp",
+//       description: [
+//         <p>Dex orderbook platform</p>,
+//         <p>
+//           Support PEPE Bep20, PEPE Sushi, PEPE MSG and more than 11 meme tokens
+//         </p>,
+//         <p>Added TradinvView</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "web3.js",
+//         "wallet connect",
+//         "metamask",
+//         "coinbase",
+//         "solidity",
+//         "hardhat",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "PEPE Bep20 | Burn & Drop",
+//       date: "June 2023",
+//       link: "https://pepe.markets/",
+//       imgUrl: "./images/projects/burn_drop.webp",
+//       description: [
+//         <p>
+//           Burn & Drop is the service that burns and airdrop each token to make a
+//           token price rising up.
+//         </p>,
+//         <p>
+//           Support PEPE Bep20, PEPE Sushi, PEPE MSG and more than 11 meme tokens
+//         </p>,
+//         <p>PEPE Syndicate</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "web3.js",
+//         "wallet connect",
+//         "metamask",
+//         "coinbase",
+//         "solidity",
+//         "hardhat",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Genogram",
+//       date: "Sep 2021",
+//       link: "https://genogram-gojs.netlify.app/",
+//       imgUrl: "./images/projects/genogram.webp",
+//       description: [
+//         <p>Genorgram using react.js and gojs</p>,
+//         <p>Generate the data from the database and editable by drag.</p>,
+//       ],
+//       domains: ["react.js", "gojs", "gosj-react", "html", "css"],
+//     },
+//     {
+//       name: "Food Website",
+//       date: "Aug 2023",
+//       link: "#",
+//       imgUrl: "./images/projects/food.webp",
+//       description: [<p>Website Theme Development</p>],
+//       domains: ["react", "html5", "scss", "javascript", "css3"],
+//     },
+//     {
+//       name: "Dentist Website",
+//       date: "Aug 2023",
+//       link: "#",
+//       imgUrl: "./images/projects/dentist.webp",
+//       description: [<p>Website Theme Development</p>],
+//       domains: ["react", "html5", "scss", "javascript", "css3"],
+//     },
+//     {
+//       name: "Fashion Website",
+//       date: "July 2023",
+//       link: "https://aura-fashion-theme.netlify.app/",
+//       imgUrl: "./images/projects/fashion.webp",
+//       description: [<p>Website Theme Development</p>],
+//       domains: ["react", "html5", "scss", "javascript", "css3"],
+//     },
+//     {
+//       name: "Crypto Website",
+//       date: "July 2023",
+//       link: "https://crypto-aura-theme.netlify.app/",
+//       imgUrl: "./images/projects/crypto.webp",
+//       description: [<p>Website Theme Development</p>],
+//       domains: ["react", "html5", "scss", "javascript", "css3"],
+//     },
+//     {
+//       name: "Xocial Media App",
+//       date: "Feb 2017",
+//       link: "#",
+//       imgUrl: "./images/projects/xocial.webp",
+//       description: [<p>Mobile App Development</p>],
+//       domains: ["mobile", "ios", "ipad", "android"],
+//     },
+//     {
+//       name: "PEPE Brother",
+//       date: "May 2023",
+//       link: "https://brothers.pepesushi.vip",
+//       imgUrl: "./images/projects/pepe.webp",
+//       description: [
+//         <p>Two token support, PEPEP and PEPEG</p>,
+//         <p>Burn one token and get same amount of another token</p>,
+//         <p>Pepe police and pepe gang story</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "ethers.js",
+//         "wallet connect",
+//         "metamask",
+//         "coinbase",
+//         "solidity",
+//         "hardhat",
+//         "token",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "PEPE MSG",
+//       date: "May 2023",
+//       link: "https://intro.themessages.xyz/",
+//       imgUrl: "./images/projects/pepe-msg.webp",
+//       description: [
+//         <p>The Messages. Combining Meme culture with utility.</p>,
+//         <p>
+//           Experience the Fusion of Meme Coin and Social Media: Power Up Your
+//           Blockahin Experience!
+//         </p>,
+//         <p>
+//           $TBNB, $ARMY, and $MSG. $MSG is on Binance Smart Chain, while the
+//           others are on the testnet.
+//         </p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "ethers.js",
+//         "wallet connect",
+//         "metamask",
+//         "coinbase",
+//         "solidity",
+//         "hardhat",
+//         "token",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Token Faucet Platform",
+//       date: "Mar 2023",
+//       link: "https://faucet.themessages.xyz",
+//       imgUrl: "./images/projects/faucet.webp",
+//       description: [
+//         <p>ERC20 Token faucet platform</p>,
+//         <p>Binance smart chain tesetnet support</p>,
+//         <p>Time limitation implemented</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "web3.js",
+//         "solidity",
+//         "hardhat",
+//         "token",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Home Of 12V",
+//       date: "May 2020",
+//       imgUrl: "./images/projects/12v.webp",
+//       link: "#",
+//       description: [
+//         <p>Front end working</p>,
+//         <p>Mobile responsive using tailwindCSS and Next.js</p>,
+//       ],
+//       domains: ["next.js", "typescript", "tailwindCSS", "react.js", "netlify"],
+//     },
+//     {
+//       name: "Voice Emailer App",
+//       date: "Oct 2016",
+//       link: "#",
+//       imgUrl: "./images/projects/voice.webp",
+//       description: [<p>Mobile App Development</p>],
+//       domains: ["mobile", "ios", "ipad", "android"],
+//     },
+//     {
+//       name: "Catch Me App",
+//       date: "Dec 2016",
+//       link: "#",
+//       imgUrl: "./images/projects/catch.webp",
+//       description: [<p>Mobile App Development</p>],
+//       domains: ["mobile", "ios", "ipad", "android"],
+//     },
+//     {
+//       name: "NFT Marketplace",
+//       date: "July 2022 - Aug 2022",
+//       imgUrl: "./images/projects/nftmarket.webp",
+//       link: "https://nftmarket.difines.io",
+//       description: [
+//         <p>Minting, Selling, Buying and Listing NFTs</p>,
+//         <p>
+//           Has the <span className="font-medium">royalty</span> for the{" "}
+//           <span className="font-medium">NFT creators</span>
+//         </p>,
+//         <p>
+//           <span className="font-medium">Swap place</span> where user can swap
+//           <span className="font-medium">two NFT properties</span>
+//         </p>,
+//         <p>
+//           Planning to develop <span className="font-medium">combine place</span>{" "}
+//           where makes NFT more <span className="font-medium">stronger</span>
+//         </p>,
+//         <p>
+//           NFTs will be used as the{" "}
+//           <span className="font-medium">game assets</span>
+//         </p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "firebase",
+//         "web3.js",
+//         "solidity",
+//         "hardhat",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "KOILLECTIBLE",
+//       date: "Oct 2022 - Nov 2022",
+//       imgUrl: "./images/projects/koi.webp",
+//       link: "https://koi.difines.io",
+//       description: [
+//         <p>
+//           The platform that brings fundraising to the global stage by combining
+//           traditional web2 and the emerging web3 industries.
+//         </p>,
+//         <p>Koi fishes will be growing day by day</p>,
+//         <p>Change water function</p>,
+//         <p>
+//           Fish swimming speed will be decreased based on the weight growing day
+//           by day
+//         </p>,
+//         <p>
+//           NFTs will be used as the{" "}
+//           <span className="font-medium">game assets</span>
+//         </p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "firebase",
+//         "web3.js",
+//         "solidity",
+//         "hardhat",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "NFT Marketplace (Bloodshed)",
+//       date: "Oct 2019 - Dec 2019",
+//       imgUrl: "./images/projects/nftfront.webp",
+//       link: "#",
+//       description: [<p>Minting, Selling, Buying, Bidding, Listing NFTs</p>],
+//       domains: [
+//         "react.js",
+//         "scss",
+//         "node.js",
+//         "express.js",
+//         "mongodb",
+//         "ethers.js",
+//         "solidity",
+//         "truffle",
+//         "ethereum",
+//       ],
+//     },
+//     {
+//       name: "White Creator Token Minting Platform",
+//       date: "Jun 2022",
+//       link: "https://whitecreator.difines.io",
+//       imgUrl: "./images/projects/whitecreator.webp",
+//       description: [
+//         <p>
+//           Support <span className="font-medium">binance</span> and{" "}
+//           <span className="font-medium">ethereum</span> chains for now.
+//         </p>,
+//         <p>
+//           Create token easily within{" "}
+//           <span className="font-medium">10 seconds by one click</span>
+//         </p>,
+//         <p>
+//           Plan to add <span className="font-medium">more evm chains</span> such
+//           like polygon, avax and etc.
+//         </p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "web3.js",
+//         "solidity",
+//         "hardhat",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "NFT Minting Platform",
+//       date: "Jun 2022",
+//       link: "https://nft.difines.io",
+//       imgUrl: "./images/projects/nft.webp",
+//       description: [
+//         <p>
+//           Support <span className="font-medium">binance</span> and{" "}
+//           <span className="font-medium">ethereum</span> chains for now.
+//         </p>,
+//         <p>
+//           Create NFT easily within{" "}
+//           <span className="font-medium">10 seconds by one click</span>
+//         </p>,
+//         <p>
+//           Plan to add <span className="font-medium">more evm chains</span> such
+//           like polygon, avax and etc.
+//         </p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "scss",
+//         "web3.js",
+//         "solidity",
+//         "hardhat",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Electon JS Project",
+//       date: "Feb 2020",
+//       imgUrl: "./images/projects/movie-electron.webp",
+//       link: "#",
+//       description: [<p>ElectronJS</p>, <p>Tailwind</p>, <p>React.js</p>],
+//       domains: ["electronJS", "react.js", "tailwind"],
+//     },
+//     {
+//       name: "Guessing App",
+//       date: "Sep 2017",
+//       link: "#",
+//       imgUrl: "./images/projects/hairshop.webp",
+//       description: [<p>Mobile App Development</p>],
+//       domains: ["mobile", "ios", "ipad", "android"],
+//     },
+//     {
+//       name: "Web3.0 Messaging Platform - Chat Fi",
+//       date: "Feb 2023",
+//       imgUrl: "./images/projects/chatfi.webp",
+//       link: "https://chatfi.difines.io",
+//       description: [
+//         <p>Chat each other using wallet address</p>,
+//         <p>Create the group and invite people</p>,
+//         <p>Transfer token easily</p>,
+//         <p>Create the token airdrop and voting event</p>,
+//         <p>Plan to add many feature</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "chatscope",
+//         "web3.js",
+//         "firebase",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "The Messages (record)",
+//       date: "Mar 2023",
+//       imgUrl: "./images/projects/message.webp",
+//       link: "https://record.themessages.xyz",
+//       description: [
+//         <p>
+//           Create the gold, silver and bronze types of congratulation messages to
+//           the blockchain
+//         </p>,
+//         <p>Use the WBC token</p>,
+//         <p>Share more SNS information by choosing the gold message</p>,
+//         <p>Plan to add more feature</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "web3.js",
+//         "solidity",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "The Messages (booker)",
+//       date: "Apr 2023",
+//       imgUrl: "./images/projects/booker.webp",
+//       link: "https://bettor.pepesushi.vip",
+//       description: [
+//         <p>Post to earn web3 project</p>,
+//         <p>Integrated wallet connect, coinbase, metamask</p>,
+//         <p>Use the nft.storage SDK to save metadata</p>,
+//         <p>Post, Edit, Delete, Buy article</p>,
+//       ],
+//       domains: [
+//         "react.js",
+//         "typescript",
+//         "web3.js",
+//         "solidity",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Mining P2E Game",
+//       date: "Apr 2023",
+//       imgUrl: "./images/projects/mining.webp",
+//       link: "https://intro.mining.difines.io",
+//       description: [
+//         <p>Play to Earn web3 mining game</p>,
+//         <p>Integrate NFT assets with the game</p>,
+//         <p>Buy the NFTs to earn much more token</p>,
+//       ],
+//       domains: [
+//         "vue.js",
+//         "web3.js",
+//         "play to earn",
+//         "solidity",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Partner",
+//       date: "Mar 2023",
+//       imgUrl: "./images/projects/partner.webp",
+//       link: "https://partner.difines.io",
+//       description: [
+//         <p>Create the backend using openAI api with node.js and express.js</p>,
+//         <p>Made the backend as serverless to run on the netlify</p>,
+//         <p>Integrated react.js frontend with the backend</p>,
+//       ],
+//       domains: ["chatGPT", "react.js", "node.js", "express.js"],
+//     },
+//     {
+//       name: "Clinicial Chart (Alarta)",
+//       date: "2020 - 2021",
+//       imgUrl: "./images/projects/clinical.webp",
+//       link: "https://incarta.com.au/",
+//       description: [
+//         <p>
+//           With over 25 years experience in the Health and Life Sciences sector,
+//           Incarta has a demonstrated history of innovation in hardware and
+//           software development. Our leading clinical records platform “Alarta”
+//           is amongst the most advanced cloud based critical care medical record
+//           systems available anywhere. It is also one of the most cost effective.
+//           Alarta can be deployed within a few hours auto-configuring itself via
+//           HL7.
+//         </p>,
+//       ],
+//       domains: ["chatGPT", "react.js", "node.js", "express.js"],
+//     },
+//     {
+//       name: "Facial Recognize",
+//       date: "Feb 2020",
+//       imgUrl: "./images/projects/facial-recognize.webp",
+//       link: "https://github.com/aiden77mori/facial-recognization",
+//       description: [
+//         <p>Face dectection project using face-api.js</p>,
+//         <p>API integration with react</p>,
+//         <p>Multi faces recognize possible</p>,
+//         <p>Recognize face using the camera</p>,
+//       ],
+//       domains: ["react.js", "face-api.js", "restful-api", "integration"],
+//     },
+//     {
+//       name: "Art Worker",
+//       date: "Dec 2019",
+//       imgUrl: "./images/projects/art.webp",
+//       link: "https://nft.difines.io/art",
+//       description: [
+//         <p>Photo Edition tools using fabric.js and react.js</p>,
+//         <p>Filter, Adjust, Overlay, Drawing functions</p>,
+//       ],
+//       domains: ["fabric.js", "react.js", "typescript", "nft"],
+//     },
+//     {
+//       name: "DIOR Virtual Shop",
+//       date: "Oct 2020",
+//       imgUrl: "./images/projects/dior.webp",
+//       link: "https://dior-vrstore.netlify.app",
+//       description: [
+//         <p>Admin can upload the images and 3D assets</p>,
+//         <p>Add or edit map with hubspot</p>,
+//         <p>Purchase the product in VR environment</p>,
+//       ],
+//       domains: ["html", "javascript", "php", "panolens", "css", "three.js"],
+//     },
+//     {
+//       name: "Album App",
+//       date: "Feb 2021",
+//       imgUrl: "./images/projects/app.webp",
+//       link: "#",
+//       description: [
+//         <p>Sign up by OTP</p>,
+//         <p>User can post images</p>,
+//         <p>Make friend</p>,
+//         <p>Social platform integration</p>,
+//         <p>Upload and edit image using uploadcare widget</p>,
+//         <p>Display address book of the mobile</p>,
+//       ],
+//       domains: [
+//         "ionic",
+//         "angular",
+//         "node.js",
+//         "express.js",
+//         "postgreSql",
+//         "scss",
+//       ],
+//     },
+//     {
+//       name: "Kingdom Battle",
+//       date: "July 2022",
+//       imgUrl: "./images/projects/kingdom.webp",
+//       link: "https://kingdom.difines.io",
+//       description: [
+//         <p>
+//           <span className="font-medium">Play to Earn</span> web3 battle type of
+//           game
+//         </p>,
+//         <p>
+//           Support <span className="font-medium">multiplayer</span> mode in which
+//           up to <span className="font-medium">8 players</span> playing together
+//         </p>,
+//         <p>Defeat goblins and enemy boss to get the more token</p>,
+//       ],
+//       domains: [
+//         "unity3D",
+//         "solidity",
+//         "web3.js",
+//         "webgl",
+//         "play to earn",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "World Speed",
+//       date: "Sep 2022",
+//       imgUrl: "./images/projects/worldspeed.webp",
+//       link: "https://hamadeco.jp/cargame/",
+//       description: [
+//         <p>
+//           <span className="font-medium">Play to Earn</span> web3 car racing game
+//         </p>,
+//         <p>
+//           Play with 4 computer players on the{" "}
+//           <span className="font-medium">easy, middle and hard</span> game mode
+//         </p>,
+//         <p>Be top winner to get the more token</p>,
+//         <p>
+//           Plan to add <span className="font-medium">multiplayer</span> mode
+//         </p>,
+//       ],
+//       domains: [
+//         "unity3D",
+//         "solidity",
+//         "web3.js",
+//         "webgl",
+//         "play to earn",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Crypto Snaker",
+//       date: "Aug 2022",
+//       imgUrl: "./images/projects/cryptosnake.webp",
+//       link: "https://snake.difines.io",
+//       description: [
+//         <p>
+//           <span className="font-medium">Play to Earn</span> web3 snake game
+//         </p>,
+//         <p>
+//           Play with many <span className="font-medium">snake bots</span>
+//         </p>,
+//         <p>
+//           Survive <span className="font-medium">as long as possible</span> to
+//           get the more token
+//         </p>,
+//         <p>
+//           Plan to add <span className="font-medium">multiplayer</span> mode
+//         </p>,
+//       ],
+//       domains: [
+//         "unity3D",
+//         "solidity",
+//         "web3.js",
+//         "webgl",
+//         "play to earn",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Puzzle",
+//       date: "Oct 2022",
+//       imgUrl: "./images/projects/puzzle.webp",
+//       link: "https://puzzle.difines.io",
+//       description: [
+//         <p>
+//           <span className="font-medium">Play to Earn</span> web3 puzzle game
+//           (2048)
+//         </p>,
+//         <p>
+//           Play on the <span className="font-medium">easy, middle and hard</span>{" "}
+//           mode with the limited time
+//         </p>,
+//         <p>
+//           Solve the puzzle{" "}
+//           <span className="font-medium">as soon as possible</span> before time
+//           is up to get the more token
+//         </p>,
+//       ],
+//       domains: [
+//         "unity3D",
+//         "solidity",
+//         "web3.js",
+//         "webgl",
+//         "play to earn",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "BlockDown",
+//       date: "Nov 2022",
+//       imgUrl: "./images/projects/blockdown.webp",
+//       link: "https://blockdown.difines.io",
+//       description: [
+//         <p>
+//           <span className="font-medium">Play to Earn</span> web3 block down game
+//           (tetris)
+//         </p>,
+//         <p>
+//           Play on the <span className="font-medium">easy, middle and hard</span>{" "}
+//           mode
+//         </p>,
+//         <p>
+//           Match the block to the{" "}
+//           <span className="font-medium">right place</span> and break{" "}
+//           <span className="font-medium">as much as possible</span> get the more
+//           token
+//         </p>,
+//       ],
+//       domains: [
+//         "unity3D",
+//         "solidity",
+//         "web3.js",
+//         "webgl",
+//         "play to earn",
+//         "binance smart chain",
+//       ],
+//     },
+//     {
+//       name: "Crypto Works Metaverse",
+//       date: "Jan 2023",
+//       imgUrl: "./images/projects/metaverse.webp",
+//       link: "https://cryptoworks.difines.io",
+//       description: [
+//         <p>Meet the friends and chat each other</p>,
+//         <p>Buy and sell your NFT assets</p>,
+//         <p>Plan to add many features</p>,
+//       ],
+//       domains: [
+//         "unity3D",
+//         "solidity",
+//         "web3.js",
+//         "webgl",
+//         "metaverse",
+//         "play to earn",
+//         "binance smart chain",
+//       ],
+//     },
+//   ];
 
-  const tag_colors = {
-    "react.js": "blue-300",
-    typescript: "yellow-300",
-    javascript: "yellow-300",
-    firebase: "red-600",
-    firestore: "red-500",
-    "firebase auth": "red-400",
-    "chrome-extension": "yellow-400",
-    flutter: "blue-400",
-    dart: "blue-500",
-    "react-native": "purple-500",
-    firebase: "red-300",
-    html5: "pink-600",
-    sass: "pink-400",
-    scss: "pink-300",
-    tensorflow: "yellow-600",
-    django: "green-600",
-    unity3D: "green-400",
-    hardhat: "green-300",
-    python: "green-200",
-    "codeforces-api": "gray-300",
-    tailwindcss: "blue-300",
-    "next.js": "purple-600",
-    "web3.js": "purple-300",
-    metaverse: "blue-400",
-    "play to earn": "blue-500",
-    webgl: "blue-600",
-    "binance smart chain": "yellow-300",
-  };
+//   const tag_colors = {
+//     "react.js": "blue-300",
+//     typescript: "yellow-300",
+//     javascript: "yellow-300",
+//     firebase: "red-600",
+//     firestore: "red-500",
+//     "firebase auth": "red-400",
+//     "chrome-extension": "yellow-400",
+//     flutter: "blue-400",
+//     dart: "blue-500",
+//     "react-native": "purple-500",
+//     firebase: "red-300",
+//     html5: "pink-600",
+//     sass: "pink-400",
+//     scss: "pink-300",
+//     tensorflow: "yellow-600",
+//     django: "green-600",
+//     unity3D: "green-400",
+//     hardhat: "green-300",
+//     python: "green-200",
+//     "codeforces-api": "gray-300",
+//     tailwindcss: "blue-300",
+//     "next.js": "purple-600",
+//     "web3.js": "purple-300",
+//     metaverse: "blue-400",
+//     "play to earn": "blue-500",
+//     webgl: "blue-600",
+//     "binance smart chain": "yellow-300",
+//   };
 
   return (
     <>
