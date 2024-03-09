@@ -550,10 +550,10 @@ function Education() {
       <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
         <li className="list-disc">
           <div className=" text-lg md:text-xl text-left font-bold leading-tight">
-            Computer Engineering, Victoria University
+          Microcomputer Systems and Networks, IES Vega de Toranzo
           </div>
-          <div className=" text-sm text-gray-400 mt-0.5">2012 - 2015</div>
-          <div className=" text-sm md:text-base">Bachelor of Engineering</div>
+          <div className=" text-sm text-gray-400 mt-0.5">2022 - 2024</div>
+          <div className=" text-sm md:text-base">Intermediate Vocational Training</div>
         </li>
       </ul>
       <div className=" font-medium relative text-2xl mt-4 md:mt-4 mb-4">
