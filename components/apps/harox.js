@@ -258,50 +258,82 @@ function History() {
     {
       name: (
         <p>
-          Back End | Smart Contract Developer,{" "}
+          Junior Front End Developer,{" "}
           <a
             className="border-b-2"
-            href="https://decentreviews.co"
+            href="https://legrand.jp/"
             target="_blank"
             rel="noreferrer"
           >
-            Decent Reviews
+            Le Grand Co, Ltd.
           </a>
         </p>
       ),
-      date: "May 2023 - Nov 2023, Remote",
-      link: "https://decentreviews.co",
+      date: "Apr 2015 - Nov 2016, Japan",
+      link: "https://legrand.jp/",
       description: [
         <p>
-          Worked as a back-end and smart contract developer in an agile team
-          communicating directly with the CTO.
+          Worked in an Agile, collaborative environment to receive design
+          requirements, peer program, and test applications
         </p>,
         <p>
-          Created the user review API, automatic review aggregation engine and
-          embeddable badge generation engine using node.js/typescript and
-          express.js.
+          Maintained and updated 20+ web pages, graphics, and online marketing
+          materials in collaboration with the UX manager and development team.
         </p>,
         <p>
-          Used mongoDB aggregation pipeline for review aggregation engine, and
-          integrated with smart contract using web3.js to store the aggregation
-          results.
+          Leading troubleshooting efforts, fixing more than 1,000 bugs and other
+          issues, and updated sites throughout the production lifecycle.
         </p>,
         <p>
-          Implemented CI/CD pipeline to automate comprehensive project testing
-          and efficient deployment processes using github workflow actions.
+          Created the complex UI components using react/typescript and scss.
         </p>,
         <p>
-          Successfully conducted thorough API testing leveraging the Cypress and
-          Jest testing libraries, while simultaneously generating API document
-          via the Swagger API framework.
-        </p>,
-        <p>
-          Effectively leveraged Docker to efficiently package, deploy, and
-          manage applications across diverse environments, guaranteeing
-          consistency and portability.
+          Improved the process of storing app state info by implementing the
+          Redux store, and successfully integrated the front-end with Rest APIs.
         </p>,
       ],
-},
+    },
+  ];
+
+  return (
+    <>
+      <div className=" font-medium relative text-2xl mt-2 md:mt-4 mb-4">
+        Work Experience
+        <div className="absolute pt-px bg-white mt-px top-full w-full">
+          <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 left-full"></div>
+          <div className="bg-white absolute rounded-full p-0.5 md:p-1 top-0 transform -translate-y-1/2 right-full"></div>
+        </div>
+      </div>
+
+      {project_list.map((project, index) => (
+        <div className="flex w-full flex-col px-4" key={index}>
+          <div className="w-full py-4 px-4 my-2 border border-gray-50 border-opacity-10 rounded hover:bg-gray-50 hover:bg-opacity-5">
+            <div className="flex flex-wrap justify-between items-center">
+              <div className="flex justify-center items-center">
+                <div className=" text-base font-semibold md:text-lg mr-2">
+                  {project.name}
+                </div>
+              </div>
+              <div className="text-gray-300 font-light text-sm">
+                {project.date}
+              </div>
+            </div>
+            <ul className=" tracking-normal leading-tight text-sm font-light ml-6 mt-2">
+              {project.description.map((desc, index) => (
+                <li
+                  key={index}
+                  className="list-disc mt-1 text-gray-100 md:text-base"
+                >
+                  {desc}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+      ))}
+    </>
+  );
+}
 function Education() {
   return (
     <>
