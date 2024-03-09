@@ -337,6 +337,15 @@ function Education() {
           <div className=" text-sm md:text-base">Intermediate Vocational Training</div>
         </li>
       </ul>
+      <ul className=" w-10/12  mt-4 ml-4 px-0 md:px-1">
+        <li className="list-disc">
+          <div className=" text-lg md:text-xl text-left font-bold leading-tight">
+          Cybersecurity Architect Expert, Microsoft Certified
+          </div>
+          <div className=" text-sm text-gray-400 mt-0.5">2022 - 2023</div>
+          <div className=" text-sm md:text-base">Certificate</div>
+        </li>
+      </ul>
       <div className=" font-medium relative text-2xl mt-4 md:mt-4 mb-4">
         Certificate
         <div className="absolute pt-px bg-white mt-px top-full w-full">
