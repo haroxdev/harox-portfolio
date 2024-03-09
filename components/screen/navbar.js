@@ -46,7 +46,7 @@ export default class Navbar extends Component {
             "pl-3 pr-3 outline-none flex items-center  transition duration-100 ease-in-out border-b-2 border-transparent focus:border-ubb-orange py-1 "
           }
         >
-          <span className="mr-2">Total Visitors: </span>
+          <span className="mr-2">Ubuntu Desktop </span>
           <span className="font-bold text-orange-500">
             {this.state.loading ? (
               <div role="status">
