@@ -11,7 +11,7 @@ function DefaultMenu(props) {
     >
       <a
         rel="noreferrer noopener"
-        href="https://github.com/aiden77mori/aiden-portfolio"
+        href="https://github.com/haroxlive/harox-portfolio"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -20,7 +20,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="https://github.com/aiden77mori/aiden-portfolio/issues"
+        href="https://github.com/haroxlive/harox-portfolio/issues"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -30,7 +30,7 @@ function DefaultMenu(props) {
       <Devider />
       <a
         rel="noreferrer noopener"
-        href="https://www.linkedin.com/in/aiden-mori-193b9325b/"
+        href="https://www.linkedin.com/"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -41,7 +41,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="https://github.com/aiden77mori"
+        href="https://github.com/haroxlive"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >
@@ -52,7 +52,7 @@ function DefaultMenu(props) {
       </a>
       <a
         rel="noreferrer noopener"
-        href="mailto:aiden77mori@gmail.com"
+        href="mailto:harox@haroxsec.net"
         target="_blank"
         className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5"
       >

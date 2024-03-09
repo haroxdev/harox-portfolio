@@ -7,13 +7,13 @@ import { displaySettings } from "./components/apps/settings";
 import { displayChrome } from "./components/apps/chrome";
 import { displayTrash } from "./components/apps/trash";
 import { displayGedit } from "./components/apps/gedit";
-import { displayAboutAiden } from "./components/apps/aiden";
+import { displayAboutAiden } from "./components/apps/harox";
 import { displayTerminalCalc } from "./components/apps/calc";
 
 const apps = [
   {
     id: "about-aiden",
-    title: "About Aiden",
+    title: "About Harox",
     icon: "./images/logos/aidenmori.png",
     disabled: false,
     favourite: true,
