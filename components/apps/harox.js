@@ -233,14 +233,12 @@ function About() {
       </div>
       <ul className=" my-4 leading-tight tracking-tight text-sm md:text-base w-5/6 md:w-3/4 emoji-list">
         <li className=" list-pc my-2 md:text-base">
-          Detail oriented professional with over 8 years of experience in{" "}
-          <span className="font-bold">Web2</span> and{" "}
-          <span className="font-bold">Web3</span> industries.
+        Junior Fullstack passionate about innovation and continuous learning.
         </li>
         <li className=" list-pc my-2 md:text-base">
-          Experience in <span className="font-bold">Leading a Team</span> of
-          front end, back end and smart contract developers at{" "}
-          <span className="font-bold">KURONURI</span> project.
+          Familiar with <span className="font-bold">React, Node.js, JavaScript and MongoDB</span>, learning
+          {" "}
+          <span className="font-bold">PHP and MySQL.</span>.
         </li>
         <li className=" list-pc my-2 md:text-base">
           Developed <span className="font-bold">a comprehensive DeFi</span>,{" "}
