@@ -379,7 +379,7 @@ function Education() {
             <img
               src="./images/certificate/cert_mysql.jpg"
               className="rounded"
-              alt="MySQL Certificate"
+              alt="MySQL Certificate (Medium)"
             />
           </a>
         </div>
