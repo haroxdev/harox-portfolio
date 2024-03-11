@@ -89,7 +89,7 @@ export class AboutHarox extends Component {
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
         </div>
-        <div
+        {/* <div
           id="history"
           tabIndex="0"
           onFocus={this.changeScreen}
@@ -106,7 +106,7 @@ export class AboutHarox extends Component {
             src="./themes/Yaru/status/work-history.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Experience</span>
-        </div>
+        </div> */}
         {/* <div
           id="projects"
           tabIndex="0"
