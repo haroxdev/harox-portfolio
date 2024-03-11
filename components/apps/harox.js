@@ -1,7 +1,7 @@
 import { Component } from "react";
 import ReactGA from "react-ga";
 
-export class AboutAiden extends Component {
+export class AboutHarox extends Component {
   constructor() {
     super();
     this.screens = {};
@@ -89,7 +89,7 @@ export class AboutAiden extends Component {
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Education</span>
         </div>
-        <div
+        {/* <div
           id="history"
           tabIndex="0"
           onFocus={this.changeScreen}
@@ -106,7 +106,7 @@ export class AboutAiden extends Component {
             src="./themes/Yaru/status/work-history.svg"
           />
           <span className=" ml-1 md:ml-2 text-gray-50 ">Experience</span>
-        </div>
+        </div> */}
         {/* <div
           id="projects"
           tabIndex="0"
@@ -200,10 +200,10 @@ export class AboutAiden extends Component {
   }
 }
 
-export default AboutAiden;
+export default AboutHarox;
 
-export const displayAboutAiden = () => {
-  return <AboutAiden />;
+export const displayAboutHarox = () => {
+  return <AboutHarox />;
 };
 
 function About() {
@@ -379,7 +379,7 @@ function Education() {
             <img
               src="./images/certificate/cert_mysql.jpg"
               className="rounded"
-              alt="MySQL Certificate"
+              alt="MySQL Certificate (Medium)"
             />
           </a>
         </div>
@@ -1411,7 +1411,7 @@ function Resume() {
     <iframe
       className="h-full w-full"
       src="./files/PResume.pdf"
-      title="aiden mori resume"
+      title="Harox mori resume"
       frameBorder="0"
     ></iframe>
   );
