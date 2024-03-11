@@ -7,18 +7,18 @@ import { displaySettings } from "./components/apps/settings";
 import { displayChrome } from "./components/apps/chrome";
 import { displayTrash } from "./components/apps/trash";
 import { displayGedit } from "./components/apps/gedit";
-import { displayAboutAiden } from "./components/apps/harox";
+import { displayAboutHarox } from "./components/apps/harox";
 import { displayTerminalCalc } from "./components/apps/calc";
 
 const apps = [
   {
-    id: "about-aiden",
+    id: "about-Harox",
     title: "About Harox",
     icon: "./images/logos/harox.jpg",
     disabled: false,
     favourite: true,
     desktop_shortcut: true,
-    screen: displayAboutAiden,
+    screen: displayAboutHarox,
   },
   {
     id: "chrome",

@@ -1,7 +1,7 @@
 import { Component } from "react";
 import ReactGA from "react-ga";
 
-export class AboutAiden extends Component {
+export class AboutHarox extends Component {
   constructor() {
     super();
     this.screens = {};
@@ -200,10 +200,10 @@ export class AboutAiden extends Component {
   }
 }
 
-export default AboutAiden;
+export default AboutHarox;
 
-export const displayAboutAiden = () => {
-  return <AboutAiden />;
+export const displayAboutHarox = () => {
+  return <AboutHarox />;
 };
 
 function About() {
@@ -1411,7 +1411,7 @@ function Resume() {
     <iframe
       className="h-full w-full"
       src="./files/PResume.pdf"
-      title="aiden mori resume"
+      title="Harox mori resume"
       frameBorder="0"
     ></iframe>
   );

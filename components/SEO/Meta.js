@@ -47,8 +47,8 @@ export default function Meta() {
         name="twitter:description"
         content="Adrian Martinez's Personal Portfolio Website. Made with Ubuntu 20.4 (Linux) theme by Next.js and Tailwind CSS."
       />
-      <meta name="twitter:site" content="aiden77mori" />
-      <meta name="twitter:creator" content="aiden77mori" />
+      <meta name="twitter:site" content="Harox77mori" />
+      <meta name="twitter:creator" content="Harox77mori" />
       <meta name="twitter:image:src" content="images/logos/harox.jpg" />
       /* Open Graph general (Facebook, Pinterest & Google+) */
       <meta

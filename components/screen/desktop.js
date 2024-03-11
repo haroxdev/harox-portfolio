@@ -42,7 +42,7 @@ export class Desktop extends Component {
     this.setContextListeners();
     this.setEventListeners();
     this.checkForNewFolders();
-    this.openApp("about-aiden");
+    this.openApp("about-Harox");
   }
 
   componentWillUnmount() {
