@@ -241,7 +241,7 @@ function About() {
           <span className="font-bold">PHP and MySQL</span>.
         </li>
         <li className=" list-pc my-2 md:text-base">
-        Enthusiastic team player with excellent creative and problem solving skills.{" "}
+        Great team player with excellent creative and problem solving skills.{" "}
         </li>
         <li className=" list-pc my-2 md:text-base">
         Detail-oriented and meticulous, committed to delivering high quality code.
