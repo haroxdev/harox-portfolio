@@ -56,7 +56,7 @@ function BootingScreen(props) {
       <div className="text-white mb-4">
         <a
           className="underline"
-          href="https://www.linkedin.com/in/adrián-martínez-villegas-863980298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+          href="https://www.linkedin/in/adrian-martinezh"
           rel="noreferrer noopener"
           target="_blank"
         >

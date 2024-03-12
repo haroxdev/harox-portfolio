@@ -72,7 +72,7 @@ export default class Navbar extends Component {
           </span>
         </div>
         <div
-          tabIndex="0"
+          tabIndex="10"
           className={
             "pl-2 pr-2 text-xs md:text-sm outline-none transition duration-100 ease-in-out border-b-2 border-transparent focus:border-ubb-orange py-1"
           }
