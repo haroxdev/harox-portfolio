@@ -69,6 +69,15 @@ function DesktopMenu(props) {
             <div onClick={openSettings} className="w-full py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">Settings</span>
             </div>
+            <div
+            onClick={() => {
+            localStorage.clear();
+            window.location.reload();
+            }}
+            className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            <span className="ml-5">🧹</span>{" "}
+            <span className="ml-2">Reset Ubuntu</span>
+            </div>
             <Devider />
             <div onClick={goFullScreen} className="w-full py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
                 <span className="ml-5">{isFullScreen ? "Exit" : "Enter"} Full Screen</span>
