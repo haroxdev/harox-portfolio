@@ -19,7 +19,7 @@ export class AboutHarox extends Component {
       history: <History />,
       // projects: <Projects />,
       skills: <Skills />,
-      resume: <Resume />,
+      resume: <Cur />,
     };
 
     let lastVisitedScreen = localStorage.getItem("about-section");
@@ -159,7 +159,7 @@ export class AboutHarox extends Component {
             alt="vivek's resume"
             src="./themes/Yaru/status/download.svg"
           />
-          <span className=" ml-1 md:ml-2 text-gray-50 ">Resume</span>
+          <span className=" ml-1 md:ml-2 text-gray-50 ">Curriculum</span>
         </div>
       </>
     );
@@ -1406,11 +1406,11 @@ function Projects() {
     </>
   );
 }
-function Resume() {
+function Cur() {
   return (
     <iframe
       className="h-full w-full"
-      src="./files/PResume.pdf"
+      src="./files/PCurriculum.pdf"
       title="Harox mori resume"
       frameBorder="0"
     ></iframe>

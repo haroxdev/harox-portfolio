@@ -3,13 +3,12 @@ import Clock from "../util components/clock";
 import Status from "../util components/status";
 import StatusCard from "../util components/status_card";
 
-
 export default class Navbar extends Component {
   constructor() {
     super();
     this.state = {
       status_card: false,
-      visit_count: 0,
+      visit_count: "v1.00",
       loading: true,
     };
   }
