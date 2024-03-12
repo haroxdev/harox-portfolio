@@ -39,7 +39,7 @@ export default class Navbar extends Component {
     return (
       <div className="main-navbar-vp absolute top-0 right-0 w-screen shadow-md flex flex-nowrap justify-between items-center bg-ub-grey text-ubt-grey text-sm select-none z-50">
         <div
-          tabIndex="0"
+          tabIndex="10"
           className={
             "pl-3 pr-3 outline-none flex items-center  transition duration-100 ease-in-out border-b-2 border-transparent focus:border-ubb-orange py-1 "
           }
@@ -72,7 +72,7 @@ export default class Navbar extends Component {
           </span>
         </div>
         <div
-          tabIndex="10"
+          tabIndex="0"
           className={
             "pl-2 pr-2 text-xs md:text-sm outline-none transition duration-100 ease-in-out border-b-2 border-transparent focus:border-ubb-orange py-1"
           }
@@ -81,7 +81,7 @@ export default class Navbar extends Component {
         </div>
         <div
           id="status-bar"
-          tabIndex="10"
+          tabIndex="0"
           onFocus={() => {
             this.setState({ status_card: true });
           }}
