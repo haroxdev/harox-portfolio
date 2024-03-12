@@ -81,7 +81,7 @@ export default class Navbar extends Component {
         </div>
         <div
           id="status-bar"
-          tabIndex="0"
+          tabIndex="10"
           onFocus={() => {
             this.setState({ status_card: true });
           }}
