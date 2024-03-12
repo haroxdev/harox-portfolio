@@ -8,7 +8,7 @@ export default class Navbar extends Component {
     super();
     this.state = {
       status_card: false,
-      visit_count: 0,
+      visit_count: 1110,
       loading: true,
     };
   }
@@ -39,7 +39,7 @@ export default class Navbar extends Component {
     return (
       <div className="main-navbar-vp absolute top-0 right-0 w-screen shadow-md flex flex-nowrap justify-between items-center bg-ub-grey text-ubt-grey text-sm select-none z-50">
         <div
-          tabIndex="10"
+          tabIndex="0"
           className={
             "pl-3 pr-3 outline-none flex items-center  transition duration-100 ease-in-out border-b-2 border-transparent focus:border-ubb-orange py-1 "
           }
