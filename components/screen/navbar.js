@@ -2,8 +2,6 @@ import React, { Component } from "react";
 import Clock from "../util components/clock";
 import Status from "../util components/status";
 import StatusCard from "../util components/status_card";
-// import { doc, getDoc, updateDoc, increment } from "firebase/firestore";
-// import db from "../utils/firebase";
 
 export default class Navbar extends Component {
   constructor() {
