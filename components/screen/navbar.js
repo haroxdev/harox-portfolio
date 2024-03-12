@@ -2,13 +2,53 @@ import React, { Component } from "react";
 import Clock from "../util components/clock";
 import Status from "../util components/status";
 import StatusCard from "../util components/status_card";
+import mysql from "mysql";
+
+
+
+
+const selectData = () => {
+  const connection = mysql.createConnection({
+    host: "auth-db973.hstgr.io",
+    user: "u598286115_haroxtop",
+    password: "*OK/sc6V]",
+    database: "u598286115_haroxtop",
+  });
+
+  connection.connect((err) => {
+    if (err) {
+      console.error("Error connecting to the database: ", err);
+      return;
+    }
+    console.log("Connected to the database");
+
+    connection.query("SELECT MAX(id) FROM visit_count", (err, results) => {
+      if (err) {
+        console.error("0");
+        return;
+      }
+      console.log(results);
+    });
+
+    connection.end((err) => {
+      if (err) {
+        console.error("Error closing the database connection: ", err);
+        return;
+      }
+      console.log("Database connection closed");
+    });
+  });
+};
+
+selectData();
+
 
 export default class Navbar extends Component {
   constructor() {
     super();
     this.state = {
       status_card: false,
-      visit_count: 1110,
+      visit_count: selectData(result),
       loading: true,
     };
   }
