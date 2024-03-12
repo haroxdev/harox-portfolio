@@ -74,7 +74,7 @@ function DesktopMenu(props) {
             localStorage.clear();
             window.location.reload();
             }}
-            className="w-full block cursor-default py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5">
+            className="w-full py-0.5 hover:bg-ub-warm-grey hover:bg-opacity-20 mb-1.5 text-gray-400">
             <span className="ml-5">Reset Ubuntu</span>
             </div>
             <Devider />
